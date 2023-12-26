@@ -1,0 +1,2 @@
+How to play the "evil" version of the Hangman game:
+In Hangman, the word that the user is trying to guess is fixed before they start playing. In Evil Hangman, the program maintains a set of words that match the pattern of correctly provided letters so far, but does not commit to any particular word in advance. If a user guesses a letter, the program will choose to assign that letter to the location(s) in the partial solution that leaves the most potential matches remaining. 
